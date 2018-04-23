@@ -10,6 +10,7 @@ allow init socket_device:sock_file { create setattr unlink write };
 # usb
 allow init sysfs_usb:file { setattr };
 # wifi
+allow init socket_device:sock_file {create setattr unlink};
 allow init sysfs_wifi_sar:file { setattr };
 # lcd
 allow init sysfs_lcd_mipi:file { setattr };
