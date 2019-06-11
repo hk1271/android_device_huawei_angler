@@ -361,6 +361,10 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
 
+# verity
+PRODUCT_SYSTEM_VERITY_PARTITION := /dev/block/platform/soc.0/f9824900.sdhci/by-name/system
+$(call inherit-product, build/target/product/verity.mk)
+
 # WiFi config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
