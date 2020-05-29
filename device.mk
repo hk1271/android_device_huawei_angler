@@ -221,7 +221,14 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefright_softomx \
-    libstagefrighthw
+    libstagefrighthw \
+    libOmxAacEnc.so \
+    libOmxAmrEnc.so \
+    libOmxCore.so \
+    libOmxEvrcEnc.so \
+    libOmxG711Enc.so \
+    libOmxQcelp13Enc.so \
+    libgui_vendor
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS := \
