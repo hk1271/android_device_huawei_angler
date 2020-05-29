@@ -42,3 +42,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="angler-user 8.1.0 OPM7.181205.001 5080180 release-keys"
 
 BUILD_FINGERPRINT := google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys
+
+BLISS_BUILDTYPE=OFFICIAL
+
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.bliss.maintainer=Hardik_Kumar
