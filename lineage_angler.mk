@@ -28,8 +28,9 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
+TARGET_BOOT_ANIMATION_RES := 1440
 
-PRODUCT_NAME := lineage_angler
+PRODUCT_NAME := bliss_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
