@@ -23,7 +23,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/huawei/angler/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 2560
@@ -43,8 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/coral/coral:10/QQ2A.200405.005/6254899:user/release-keys
 
-BLISS_BUILDTYPE=OFFICIAL
-
-# Device Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.bliss.maintainer=Hardik_Kumar
+CUSTOM_BUILDTYPE=Official
