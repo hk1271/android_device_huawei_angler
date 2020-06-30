@@ -25,6 +25,9 @@ $(call inherit-product, device/huawei/angler/device.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
