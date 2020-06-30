@@ -48,6 +48,3 @@ BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200605.001/6392402:user/release-
 
 BLISS_BUILDTYPE=OFFICIAL
 
-# Device Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.bliss.maintainer=Hardik_Kumar
