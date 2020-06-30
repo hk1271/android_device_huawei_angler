@@ -35,6 +35,9 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a53.a57
 TARGET_2ND_CPU_FEATURES := div,atomic_ldrd_strd,armv8a
 
+# GAPPS
+TARGET_GAPPS_OVERRIDE := GoogleCamera
+
 # Inline kernel building
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_SOURCE := kernel/huawei/angler
