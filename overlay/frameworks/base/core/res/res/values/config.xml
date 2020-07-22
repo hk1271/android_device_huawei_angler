@@ -110,7 +110,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">4</integer>
+    <integer name="config_screenBrightnessSettingMinimum">1</integer>
 
     <!-- If this is true, the screen will come on when you unplug usb/power/whatever. -->
     <bool name="config_unplugTurnsOnScreen">true</bool>
@@ -509,7 +509,7 @@
     <bool name="config_enableHapticTextHandle">true</bool>
 
     <!-- System info -->
-    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone0/temp</string>
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone5/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
     <string name="config_sysGPUFreq">/sys/class/kgsl/kgsl-3d0/gpuclk</string>
     <string name="config_sysGPULoad">/sys/class/kgsl/kgsl-3d0/gpubusy</string>
