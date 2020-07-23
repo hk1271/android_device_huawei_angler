@@ -2,6 +2,11 @@ allow init tmpfs:lnk_file create_file_perms;
 
 allow init sysfs_power_management:file { write open };
 
+#Dolby
+allow init vendor_data_file:file lock;
+allow init hal_audio_default:binder call;
+allow init platform_app:binder call;
+
 # mtp
 allow init sysfs_g_android_param:dir r_dir_perms;
 allow init sysfs_g_android_param:file rw_file_perms;
