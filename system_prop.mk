@@ -16,7 +16,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.media_vol_steps=25 \
     ro.config.vc_call_vol_steps=7 \
     ro.audio.flinger_standbytime_ms=300
-    vendor.audio.dolby.ds2.enabled=true
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
