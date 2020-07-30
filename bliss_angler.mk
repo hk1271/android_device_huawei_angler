@@ -27,6 +27,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit PixelGApps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER
 
 # Screen Resolution for the Bootanimation
 TARGET_SCREEN_HEIGHT := 2560
