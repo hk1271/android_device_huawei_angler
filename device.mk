@@ -365,4 +365,5 @@ PRODUCT_COPY_FILES += \
 
 # Remove Apps
 PRODUCT_PACKAGES += \
-    RemovePackages-1
+    RemovePackages-1 \
+    RemovePackages-2
