@@ -369,5 +369,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Remove Apps
 PRODUCT_PACKAGES += \
     RemovePackages-1 \
-    RemovePackages-2 \
-    RemovePackages-3
+    RemovePackages-2
