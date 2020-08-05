@@ -26,7 +26,7 @@ $(call inherit-product, device/huawei/angler/device.mk)
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit PixelGApps
-$(call inherit-product-if-exists, vendor/gapps/config.mk)
+$(call inherit-product-if-exists, vendor/google/gapps/gapps-vendor.mk)
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
@@ -47,7 +47,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
     PRIVATE_BUILD_DESC="angler-user 8.1.0 OPM7.181205.001 5080180 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200705.002/6506677:user/release-keys"
+BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release-keys"
 
 BLISS_BUILDTYPE=OFFICIAL
+
 
