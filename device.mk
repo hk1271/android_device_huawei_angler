@@ -346,17 +346,6 @@ $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 # copy wlan firmware
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4358/device-bcm.mk)
 
-# VoLTE
-PRODUCT_PRODUCT_PROPERTIES += \
-    persist.dbg.ims_volte_enable=1 \
-    persist.dbg.volte_avail_ovr=1 \
-    persist.dbg.vt_avail_ovr=1 \
-    persist.dbg.wfc_avail_ovr=1 \
-    persist.radio.rat_on=combine \
-    persist.radio.data_ltd_sys_ind=1 \
-    persist.radio.data_con_rprt=1 \
-    persist.radio.calls.on.ims=1
-
 # b/29995499
 $(call add-product-sanitizer-module-config,cameraserver,never)
 $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
