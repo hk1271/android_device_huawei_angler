@@ -149,3 +149,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi calling
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan.enable=true
+
+#Wifi Direct
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.direct.interface=p2p-dev-wlan0
