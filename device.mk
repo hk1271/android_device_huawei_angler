@@ -113,6 +113,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fingerprint.angler
 
+# Gcam
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     gatekeeper.msm8994
@@ -353,9 +357,6 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 # b/36201281
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
-
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
 
 # WiFi config
 PRODUCT_COPY_FILES += \
