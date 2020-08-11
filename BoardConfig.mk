@@ -183,9 +183,19 @@ TARGET_FLATTEN_APEX := true
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
     AudioFX \
+    GooglePrintRecommendationService \
+    GoogleExtServicesPrebuilt \
+    CalculatorGooglePrebuilt \
+    CalendarGooglePrebuilt \
     Chrome \
-    Photos \
-    WallpaperPickerGoogleRelease \
+    GoogleTTS \
+    LatinIMEGooglePrebuilt \
+    MarkupGoogle \
+    talkback \
+    WebViewGoogle \
+    PrebuiltGmail \
+    CarrierServices \
+    ConnMetrics \
+    PixelSetupWizard \
     TipsPrebuilt \
-    CalculatorGooglePrebuilt
-    
+    WallpaperPickerGoogleRelease
