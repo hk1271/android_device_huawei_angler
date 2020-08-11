@@ -182,4 +182,10 @@ TARGET_FLATTEN_APEX := true
 
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
-    AudioFX
+    AudioFX \
+    Chrome \
+    Photos \
+    WallpaperPickerGoogleRelease \
+    TipsPrebuilt \
+    CalculatorGooglePrebuilt
+    
