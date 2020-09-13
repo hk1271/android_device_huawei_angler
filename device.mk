@@ -304,6 +304,10 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# libcutils
+PRODUCT_PACKAGES += \
+    libcutils_shim
+
 # Sensor & activity_recognition HAL
 TARGET_USES_NANOHUB_SENSORHAL := true
 NANOHUB_SENSORHAL_LID_STATE_ENABLED := true
