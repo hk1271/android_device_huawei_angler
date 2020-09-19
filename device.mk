@@ -299,6 +299,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    libaudioclient_shim \
     libion \
     librmnetctl \
     libxml2
