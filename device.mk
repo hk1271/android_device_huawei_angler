@@ -361,9 +361,6 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
 
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
-
 # WiFi config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
