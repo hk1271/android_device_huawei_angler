@@ -14,6 +14,7 @@
 # limitations under the License.
 #
 BUILD_BROKEN_DUP_RULES := true
+BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 TARGET_BOARD_PLATFORM := msm8994
 TARGET_BOOTLOADER_BOARD_NAME := angler
@@ -162,6 +163,9 @@ NXP_CHIP_TYPE := 2
 
 # Graphics
 TARGET_ADDITIONAL_GRALLOC_10_USAGE_BITS := 0x2000U | 0x02000000U
+
+# HIDL
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
 
 # Testing related defines
 BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/angler-setup.sh
