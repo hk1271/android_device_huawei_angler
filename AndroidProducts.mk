@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_angler.mk
+    $(LOCAL_DIR)/statix_angler.mk
