@@ -440,19 +440,19 @@ service cnd /vendor/bin/cnd
 
 on property:ro.boot.hardware.revision=ANGLER-V1
     write /sys/module/bcmdhd/parameters/nvram_path \
-	      /vendor/etc/wifi/bcmdhd-pme.cal
+	      /system/etc/wifi/bcmdhd-pme.cal
 
 on property:ro.boot.hardware.revision=ANGLER-V2
     write /sys/module/bcmdhd/parameters/nvram_path \
-	      /vendor/etc/wifi/bcmdhd-pme.cal
+	      /system/etc/wifi/bcmdhd-pme.cal
 
 on property:ro.boot.wifi_cal=2
 	write /sys/module/bcmdhd/parameters/nvram_path \
-		  /vendor/etc/wifi/bcmdhd-low.cal
+		  /system/etc/wifi/bcmdhd-low.cal
 
 on property:ro.boot.wifi_cal=3
 	write /sys/module/bcmdhd/parameters/nvram_path \
-		  /vendor/etc/wifi/bcmdhd-high.cal
+		  /system/etc/wifi/bcmdhd-high.cal
 
 on property:ro.boot.hardware.sku=H1511
     setprop ro.boot.wificountrycode US
