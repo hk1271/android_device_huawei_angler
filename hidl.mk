@@ -82,8 +82,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service-qti
 
 # Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal@2.0-service.mock
+#PRODUCT_PACKAGES += \
+#    android.hardware.thermal@2.0-service.mock
 
 # Trust HAL
 PRODUCT_PACKAGES += \

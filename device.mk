@@ -298,8 +298,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine-angler.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf
 
-PRODUCT_PACKAGES += \
-    thermal.angler
+#PRODUCT_PACKAGES += \
+#    thermal.angler
 
 # RIL
 PRODUCT_PACKAGES += \
