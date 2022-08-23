@@ -623,4 +623,4 @@ $(call add-product-sanitizer-module-config,qmuxd,never)
 
 # Privapp Whitelist
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-angler.xml
+    $(LOCAL_PATH)/privapp-permissions-angler.xml:system/etc/permissions/privapp-permissions-angler.xml
