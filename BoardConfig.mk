@@ -173,3 +173,5 @@ DEVICE_MATRIX_FILE := device/huawei/angler/compatibility_matrix.xml
 
 # Enable workaround for slow rom flash
 BOARD_SUPPRESS_SECURE_ERASE := true
+
+TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT := true
