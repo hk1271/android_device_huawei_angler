@@ -620,3 +620,7 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 # b/36201281
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
+
+# Privapp Whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-angler.xml
