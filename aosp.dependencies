@@ -6,4 +6,15 @@
  {
    "repository": "android_vendor_huawei",
    "target_path": "vendor/huawei"
+ },
+ {
+   "repository"  : "lakgarg/device_google_contexthub",
+   "target_path" : "device/google/contexthub"
+ },
+ {
+    "repository"  : "francois133/gcc_10_toolchain",
+    "target_path" : "prebuilts/gcc_toolchain_10",
+    "branch"      : "master",
+    "remote"      : "gitlab"
+  }
 ]
